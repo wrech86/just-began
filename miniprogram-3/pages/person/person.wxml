@@ -1,0 +1,21 @@
+<!--pages/person/person.wxml-->
+<view class="a">产品介绍:</view>
+<view>
+  <text decode="{{true}}">
+    &nbsp;&nbsp;本产品根据电池故障所出现的特征：体积膨胀发生鼓包现象，漏液爆炸，温度骤升，通过应变式传感器检测，当检测到危险时会首先自动断电，停止给电动车充电，并将报警信息通过控制芯片传送到电脑或者手机客户端，通过网页显示出来，并且通过报警器实现声音报警。
+  </text>
+</view>
+<view class="a">电池起火科普：</view>
+<view>
+  <text decode="{{true}}">
+    &nbsp;&nbsp;从起火原因看，电气故障和自燃是造成电动车火灾的主要原因，分别占电动车火灾总数的62.1%和23.5%。其中，过度充电、电池单体故障、电气线路短路是导致电动车电气火灾的根本原因。
+  </text>
+</view>
+<view class="b">
+  <image src="../../assets/img/2.jpg"></image>
+  <image src="../../assets/img/1.jpg" ></image>
+</view>
+<view class="a">产品推荐：</view>
+<view class="b">
+  <image src="../../assets/img/3.jpg"></image> 
+</view>

@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="circle">
+    <view style="font-size:16px">正在充电</view>
+    <view> <span>58</span><span style="color:#777777">%</span></view>
+  </view>
+  <view>剩余时间:29:21</view>
+</view>
+<view class="box1">
+  <view class="row">
+   <view class="one">当前电流：</view>
+   <view class="two">700mah</view>
+  </view>
+  <view class="row">
+    <view class="one">当前电压：</view>
+   <view class="two">240V</view>
+  </view>
+  <view class="row">
+    <view class="one">剩余骑行距离：</view>
+   <view class="two">27km</view>
+  </view>
+</view>

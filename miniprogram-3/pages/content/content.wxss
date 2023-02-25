@@ -1,0 +1,9 @@
+/* pages/content/content.wxss */
+.nb{
+  width: 100vw;
+  height: auto;
+}
+.nt{
+  width: 100vw;
+  margin-bottom: 10px;
+}

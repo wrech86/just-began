@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/content/content",
+    "pages/person/person"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color":"#515151",
+    "selectedColor":"#1296db",
+    "borderStyle":"white",
+    "list":[{
+      "selectedIconPath":"assets/icon/管理1.png",
+      "iconPath":"assets/icon/管理.png",
+      "pagePath":"pages/index/index",
+      "text":"管理"
+    },
+    {
+      "selectedIconPath":"assets/icon/数据1.png",
+      "iconPath":"assets/icon/数据.png",
+      "pagePath":"pages/content/content",
+      "text":"数据"
+    },
+    {
+      "selectedIconPath":"assets/icon/相关1.png",
+      "iconPath":"assets/icon/相关.png",
+      "pagePath":"pages/person/person",
+      "text":"电池"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

@@ -1,0 +1,8 @@
+<!--pages/content/content.wxml-->
+<view class="nb">
+  <image src="../../assets/img/压力.png" class="nt"></image>
+  <image src="../../assets/img/温度.png" class="nt"></image>
+  <image src="../../assets/img/湿度.png" class="nt"></image>
+</view> 
+
+
