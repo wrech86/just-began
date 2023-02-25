@@ -1,0 +1,7 @@
+<!--utils/table-lamp/table-lamp.wxml-->
+<view class="bigbtn" size="mini" bindtap="changeoof" style="background-color:{{red}}">
+<image  src="{{photo}}" class="img"></image>
+</view>
+<view class="btnclass">
+<button style="width:200rpx" bindtap="back">返回</button>
+</view>

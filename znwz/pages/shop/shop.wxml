@@ -1,0 +1,12 @@
+<!--pages/shop/shop.wxml-->
+<view class="bigest">
+<view class="child" hover-class="hchild"></view>
+<view class="child" hover-class="hchild"></view>
+<view class="child" hover-class="hchild"></view>
+<view class="child" hover-class="hchild"></view>
+<view class="child" hover-class="hchild"></view>
+<view class="child" hover-class="hchild"></view>
+<view class="child" hover-class="hchild"></view>
+<view class="child" hover-class="hchild"></view>
+<view class="child" hover-class="hchild"></view>
+</view>

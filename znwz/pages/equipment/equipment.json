@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "search-cpn":"../../components/equipment-cpn/search-cpn"
+  },
+  "navigationBarTitleText": "设备"
+}

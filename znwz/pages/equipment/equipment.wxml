@@ -1,0 +1,94 @@
+<!--pages/equipment/equipment.wxml-->
+<search-cpn></search-cpn>
+
+<view class="card">
+<!--第一个方块——空气净化器-->
+<view class="card-child" bindtap="handleAirCleaner">
+<view class="card-child-child"></view>
+<view class="card-airCleaner"></view>
+<view class="title" style="background-color:{{airCleaner.isred}}"></view>
+<view class="text" style="top: 40%">智能微藻空气净化器</view>
+</view>
+<!--第二个方块——制氧机-->
+
+<!--第三个方块——空调-->
+<view class="card-child" bindtap="handleAirConditioner">
+<view class="card-child-child"></view>
+<view class="card-airConditioner"></view>
+<view class="title" style="background-color:{{airConditioner.isred}}"></view>
+<view class="text">空调</view>
+
+</view>
+<!--第四个方块——电饭煲-->
+<view class="card-child" bindtap="handleElectricCooker">
+<view class="card-child-child"></view>
+<view class="card-electricCooker"></view>
+<view class="title" style="background-color:{{electricCooker.isred}}"></view>
+<view class="text">电饭煲</view>
+
+</view>
+<!--第五个方块——炒菜机-->
+<view class="card-child" bindtap="handleAutomaticCooker">
+<view class="card-child-child"></view>
+<view class="card-automaticCooker"></view>
+<view class="title" style="background-color:{{automaticCooker.isred}}"></view>
+<view class="text">炒菜机</view>
+
+</view>
+<!--第六个方块——热水器-->
+<view class="card-child" bindtap="handleWaterHeater">
+<view class="card-child-child"></view>
+<view class="card-waterHeater"></view>
+<view class="title" style="background-color:{{waterHeater.isred}}"></view>
+<view class="text">热水器</view>
+
+</view>
+<!--第七个方块——扫地机器人-->
+<view class="card-child" bindtap="handleFloorMoopingRobot">
+<view class="card-child-child"></view>
+<view class="card-floorMoppingRobot"></view>
+<view class="title" style="background-color:{{floorMoppingRobot.isred}}"></view>
+<view class="text">扫地机器人</view>
+
+</view>
+<!--第八个方块——窗帘-->
+<view class="card-child" bindtap="handleCurtain">
+<view class="card-child-child"></view>
+<view class="card-curtain"></view>
+<view class="title" style="background-color:{{curtain.isred}}"></view>
+<view class="text">窗帘</view>
+
+</view>
+<!--第九个方块——台灯-->
+<view class="card-child" bindtap="handleTableLamp">
+<view class="card-child-child"></view>
+<view class="card-tableLamp"></view>
+<view class="title" style="background-color:{{tableLamp.isred}}"></view>
+<view class="text">台灯</view>
+
+</view>
+<!--第十个方块——卧室灯-->
+<view class="card-child" bindtap="handleBedroomLight">
+<view class="card-child-child"></view>
+<view class="card-bedroomLight"></view>
+<view class="title" style="background-color:{{bedroomLight.isred}}"></view>
+<view class="text">卧室灯</view>
+
+</view>
+<!--第十一个方块——客厅灯-->
+<view class="card-child" bindtap="handleDrawingRoomLight">
+<view class="card-child-child"></view>
+<view class="card-drawingRoomLight"></view>
+<view class="title" style="background-color:{{drawingRoomLight.isred}}"></view>
+<view class="text">客厅灯</view>
+
+</view>
+<!--第是一个方块——厕所灯-->
+<view class="card-child" bindtap="handleToiletLight">
+<view class="card-child-child"></view>
+<view class="card-toiletLight"></view>
+<view class="title" style="background-color:{{toiletLight.isred}}"></view>
+<view class="text">厕所灯</view>
+
+</view>
+</view>

@@ -1,0 +1,7 @@
+<!--pages/home/home.wxml-->
+
+<!--组件echarts-cpn-->
+<view class="echarts">
+<ec-canvas id="myCharts" canvas-id="myCanvas" ec="{{parameter}}">
+</ec-canvas>
+</view>

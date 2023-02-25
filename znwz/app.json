@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/home/home",
+    "pages/equipment/equipment",
+    "pages/shop/shop",
+    "pages/profile/profile",
+    "utils/air-cleaner/air-cleaner",
+    "utils/oxy-generator/oxy-generator",
+    "utils/air-conditioner/air-conditioner",
+    "utils/electric-cooker/electric-cooker",
+    "utils/automatic-cooker/automatic-cooker",
+    "utils/water-heater/water-heater",
+    "utils/floor-mopping-robot/floor-mopping-robot",
+    "utils/curtain/curtain",
+    "utils/table-lamp/table-lamp",
+    "utils/bedroom-light/bedroom-light",
+    "utils/drawing-room-light/drawing-room-light",
+    "utils/toilet-light/toilet-light"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "public/image/home.png",
+        "selectedIconPath": "public/image/home-active.png",
+        "selectedColor": "#8cff66"
+      },
+      {
+        "pagePath": "pages/equipment/equipment",
+        "text": "设备",
+        "iconPath": "public/image/equipment.png",
+        "selectedIconPath": "public/image/equipment-active.png",
+        "selectedColor": "#8cff66"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商城",
+        "iconPath": "public/image/shop.png",
+        "selectedIconPath": "public/image/shop-active.png",
+        "selectedColor": "#8cff66"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "public/image/profile.png",
+        "selectedIconPath": "public/image/profile-active.png",
+        "selectedColor": "#8cff66"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

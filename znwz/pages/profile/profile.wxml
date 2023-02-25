@@ -1,0 +1,53 @@
+<!--pages/profile/profile.wxml-->
+<view class="loginBox">
+<block wx:if="{{!hasUserInfo}}">
+  <view class="register" bindtap="getUserProfile">登录</view>
+</block>
+<block wx:else>
+  <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+  <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  <text class="userinfo-secondname">{{secondname}}</text>
+</block>
+</view>
+<view class="box">
+<view class="boxchild">
+<image src="../../public/image/home.png" style="margin-top:17rpx"></image>
+<view class="line">
+<text style="font-size:25rpx">家庭居</text>
+<text class="right">></text>
+</view>
+</view>
+<view class="boxchild">
+<image src="../../public/image/sousuo.png"></image>
+<view class="line">
+<text style="font-size:25rpx">附近设备</text>
+<text class="right">></text>
+</view>
+</view>
+<view class="boxchild">
+<image src="../../public/image/tianjia.png"></image>
+<text class="ttt" style="font-size:25rpx">添加设备</text>
+<text class="right">></text>
+</view>
+</view>
+<view class="box2"> 
+<view class="boxchild2">
+<image src="../../public/image/baoxiu.png" style="width:55rpx;height:55rpx"></image>
+<view class="line">
+<text style="font-size:25rpx">报修</text>
+<text class="right">></text>
+</view>
+</view>
+<view class="boxchild2">
+<image src="../../public/image/equipment.png" style="width:55rpx;height:55rpx"></image>
+<view class="line"> 
+<text style="font-size:25rpx">设置</text>
+<text class="right">></text>
+</view>
+</view>
+<view class="boxchild2">
+<image src="../../public/image/guanyu.png" style="width:55rpx;height:55rpx"></image>
+<text class="ttt" style="font-size:25rpx">关于</text>
+<text class="right">></text>
+</view>
+</view>

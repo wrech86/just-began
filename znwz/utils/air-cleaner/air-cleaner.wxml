@@ -1,0 +1,63 @@
+<!--utils/air-cleaner/air-cleaner.wxml-->
+<view class="bigbtn" size="mini" bindtap="changeoof" style="background-color:{{red}}">
+<image  src="{{photo}}" class="img"></image>
+</view>
+<view class="vessel">
+<view class="Set">
+<image src="../../public/image/label.png" class="littleImg"></image>
+<view class="text">温度：</view>
+<view class="number" bindtap="settem">{{valueone}}℃</view>
+</view>
+<view class="Set">
+<image src="../../public/image/label.png" class="littleImg"></image>
+<view class="text">光照：</view>
+<view class="number" bindtap="setlight">{{valuetwo}}klx</view>
+</view>
+<view class="Set">
+<image src="../../public/image/time.png" class="littleImg"></image>
+<view class="text">定时</view>
+<block wx:if="{{isset}}">
+<view class="number" bindtap="setTime">设置</view>
+</block>
+<block wx:if="{{istime}}">
+<view class="number">{{hour}}:{{min}}:{{sec}}</view>
+</block>
+</view>
+<view class="Set">
+<image src="../../public/image/pattern.png" class="littleImg"></image>
+<view class="text">模式</view>
+<view class="number" bindtap="setPattern">选择</view>
+</view>
+</view>
+<block wx:if="{{islookedPattern}}">
+<view class="setPattern">
+<view class="setPatternChild">
+<block wx:for="{{patternone}}" wx:key="index">
+<button style="width:120rpx" bindtap="btnpatternone"><view>{{item}}</view></button>
+</block>
+</view>
+</view>
+</block>
+<block wx:if="{{islooked}}">
+<view class="setTime">
+<view class="setTimeChild">
+<block wx:for="{{mintueone}}" wx:for-item="item"  wx:for-index="index" wx:key="index">
+<button style="width:120rpx" bindtap="btnone" id="{{index}}"><view>{{item}}min</view></button>
+</block>
+</view>
+<view class="setTimeChild">
+<block wx:for="{{mintuetwo}}" wx:for-item="item"  wx:for-index="index" wx:key="index">
+<button style="width:120rpx" bindtap="btntwo" id="{{index}}"><view>{{item}}min</view></button>
+</block>
+</view>
+</view>
+</block>
+<block wx:if="{{issettem}}">
+  <input type="text" class="settem" placeholder="请输入温度，范围：28-35" model:value="{{valueone}}" bindconfirm="gotem"></input>
+</block>
+<block wx:if="{{issetlight}}">
+  <input type="text" class="setlight" placeholder="请输入光照，范围：2000-3000" model:value="{{valuetwo}}" bindconfirm="golight"></input>
+</block>
+<view class="btnclass">
+<button style="width:200rpx" bindtap="back">返回</button>
+</view>

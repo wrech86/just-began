@@ -1,0 +1,90 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "utils/air-cleaner/air-cleaner",
+          "pathName": "utils/air-cleaner/air-cleaner",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/equipment/equipment",
+          "pathName": "pages/equipment/equipment",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "utils/air-conditioner/air-conditioner",
+          "pathName": "utils/air-conditioner/air-conditioner",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "utils/automatic-cooker/automatic-cooker",
+          "pathName": "utils/automatic-cooker/automatic-cooker",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "utils/electric-cooker/electric-cooker",
+          "pathName": "utils/electric-cooker/electric-cooker",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "utils/water-heater/water-heater",
+          "pathName": "utils/water-heater/water-heater",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "utils/toilet-light/toilet-light",
+          "pathName": "utils/toilet-light/toilet-light",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/shop/shop",
+          "pathName": "pages/shop/shop",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/profile/profile",
+          "pathName": "pages/profile/profile",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/main/main",
+          "pathName": "pages/main/main",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "utils/air-cleaner/air-cleaner",
+          "pathName": "utils/air-cleaner/air-cleaner",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

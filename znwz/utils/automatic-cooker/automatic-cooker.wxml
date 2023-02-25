@@ -1,0 +1,32 @@
+<!--utils/automatic-cooker/automatic-cooker.wxml-->
+<view class="bigbtn" size="mini" bindtap="changeoof" style="background-color:{{red}}">
+<image  src="{{photo}}" class="img"></image>
+</view>
+<view class="vessel">
+<view class="Set">
+<image src="../../public/image/pattern.png" class="littleImg"></image>
+<view class="text">模式</view>
+<view class="number" bindtap="setTime">选择</view>
+</view>
+</view>
+<block wx:if="{{islooked}}">
+<view class="setTime">
+
+<view class="setTimeChild">
+<block wx:for="{{mintueone}}" wx:for-item="item"  wx:for-index="index" wx:key="index">
+<button style="width:120rpx" bindtap="btnone" id="{{index}}"><view>{{item}}min</view></button>
+</block>
+</view>
+
+<view class="setTimeChild">
+<block wx:for="{{mintuetwo}}" wx:for-item="item"  wx:for-index="index" wx:key="index">
+<button style="width:120rpx" bindtap="btntwo" id="{{index}}"><view>{{item}}min</view></button>
+</block>
+</view>
+
+</view>
+</block>
+
+<view class="btnclass">
+<button style="width:200rpx" bindtap="back">返回</button>
+</view>

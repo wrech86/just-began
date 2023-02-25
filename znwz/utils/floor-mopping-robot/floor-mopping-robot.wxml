@@ -1,0 +1,44 @@
+<!--utils/floor-mopping-robot/floor-mopping-robot.wxml-->
+<view class="bigbtn" size="mini" bindtap="changeoof" style="background-color:{{red}}">
+<image  src="{{photo}}" class="img"></image>
+</view>
+<view class="vessel">
+<view class="Set">
+<image src="../../public/image/label.png" class="littleImg"></image>
+<view class="text">空气质量：</view>
+<view class="number">66</view>
+</view>
+<view class="Set">
+<image src="../../public/image/time.png" class="littleImg"></image>
+<view class="text">定时</view>
+
+<block wx:if="{{isset}}">
+<view class="number" bindtap="setTime">设备</view>
+</block>
+<block wx:if="{{istime}}">
+<view class="number">{{hour}}:{{min}}:{{sec}}</view>
+</block>
+
+</view>
+</view>
+<block wx:if="{{islooked}}">
+<view class="setTime">
+
+<view class="setTimeChild">
+<block wx:for="{{mintueone}}" wx:for-item="item"  wx:for-index="index" wx:key="index">
+<button style="width:120rpx" bindtap="btnone" id="{{index}}"><view>{{item}}min</view></button>
+</block>
+</view>
+
+<view class="setTimeChild">
+<block wx:for="{{mintuetwo}}" wx:for-item="item"  wx:for-index="index" wx:key="index">
+<button style="width:120rpx" bindtap="btntwo" id="{{index}}"><view>{{item}}min</view></button>
+</block>
+</view>
+
+</view>
+</block>
+
+<view class="btnclass">
+<button style="width:200rpx" bindtap="back">返回</button>
+</view>

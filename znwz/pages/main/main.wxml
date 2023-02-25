@@ -1,0 +1,9 @@
+<!--pages/main/main.wxml-->
+
+<view class="photof">
+ <image src="../../public/image/logo.jpg" class="photo"></image>
+</view>
+<view class="box">
+<view class="box-child1">New-way</view>
+<view class="box-child2">New-sence</view>
+</view>

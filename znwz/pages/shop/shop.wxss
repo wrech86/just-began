@@ -1,0 +1,16 @@
+/* pages/shop/shop.wxss */
+.bigest{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.child{
+  width: 728rpx;
+  height: 200rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 12rpx 12rpx 20rpx -12rpx rgba(0, 0, 0, 0.35);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+}
+.hchild{
+  box-shadow:2rpx 2rpx 6rpx -2rpx rgba(122, 122, 122, 0.39) ;
+}

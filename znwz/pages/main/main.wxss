@@ -1,0 +1,62 @@
+/* pages/main/main.wxss */
+page{
+  background-image: linear-gradient( 135deg, #69FF97 10%, #00E4FF 100%);
+}
+.photof{
+  width: 400rpx;
+  height: 400rpx;
+  margin: 200rpx  auto;
+  border-radius: 50%;
+  box-shadow: 10rpx 10rpx 15rpx 10rpx rgba(63, 53, 53, 0.616);
+}
+.photo{
+  width: 400rpx;
+  height: 400rpx;
+  border-radius: 50%;
+}
+.box{
+  width: 220rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 400rpx auto;
+  perspective: 900rpx;
+}
+.box-child1,
+.box-child2{
+  width: 220rpx;
+  height: 100rpx;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40rpx;
+  transition: 2s;
+  backface-visibility: hidden;
+  border-radius:30rpx;
+  box-shadow: 2rpx 2rpx 10rpx 2rpx rgba(53, 51, 51, 0.753);
+}
+
+.box-child1{
+  background-color: rgba(255, 255, 255, 0.315);
+  transform:rotate3d(1, 1, 0, 0deg);
+  color: rgb(54, 53, 53);
+}
+.box-child2{
+  transform: rotate3d(1, 1, 0, 180deg);
+  background-color: rgba(59, 209, 177, 0.5);
+  color: rgb(255, 255, 255);
+}
+.box:hover .box-child1
+{
+  transform: rotate3d(1, 1, 0, 180deg);
+  background-color: rgba(255, 255, 255, 0.336);
+  color: rgb(54, 53, 53);
+}
+.box:hover .box-child2
+{
+  transform: rotate3d(1, 1, 0, 0deg);
+  background-color:  rgba(59, 209, 177, 0.5);
+  color: rgb(255, 255, 255);
+}
