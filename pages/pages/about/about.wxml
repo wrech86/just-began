@@ -1,0 +1,5 @@
+<!--pages/about/about.wxml-->
+<view class="wendu">PH</view>
+<view class="my-chart">
+<ec-canvas id="chart" canvas-id="myChart" ec="{{lazyEc}}"></ec-canvas>
+</view>

@@ -1,0 +1,32 @@
+<!--pages/home/home.wxml-->
+
+<view class="first">
+  <view class="one"></view>
+<view class="two"></view>
+<view class="three"></view>
+<view class="four"></view>
+<view class="oxy">氧气含量：21%</view>
+<view class="five"></view>
+<view class="six"></view>
+<view class="seven"></view>
+<view class="line"></view>
+</view>
+<view class="weather">
+<view class="wea1">
+<view class="wea2" bindtap="wea">温度：27℃</view>
+<view class="wea5" >湿度：36%</view>
+</view>
+<view class="wea3">
+<view class="wea2" bindtap="hum">二氧化碳浓度:550ppm</view>
+<view class="wea5" bindtap="PH">PH：7.4</view>
+</view>
+</view>
+<view class="box">
+<view class="time"><view><image src="../../assets/shijian.png"></image></view><view>定时</view></view>
+<view class="time"><view><image src="../../assets/zhineng.png"></image></view><view>智能模式</view></view>
+<view class="time"><view><image src="../../assets/yuancheng.png"></image></view><view>远程控制</view></view>
+<view class="time"><view><image src="../../assets/yejian.png"></image></view><view>夜间模式</view></view>
+<view class="time"><view><image src="../../assets/guolv.png"></image></view><view>强效过滤</view></view>
+<view class="time"><view><image src="../../assets/yanghu.png"></image></view><view>一键养护</view></view>
+</view>
+

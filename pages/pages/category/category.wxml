@@ -1,0 +1,6 @@
+<!--pages/category/category.wxml-->
+<view class="wendu">温度</view>
+<view class="my-chart">
+<ec-canvas id="chart" canvas-id="myChart" ec="{{lazyEc}}"></ec-canvas>
+</view>
+

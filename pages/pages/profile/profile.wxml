@@ -1,0 +1,6 @@
+<!--pages/profile/profile.wxml-->
+<view class="wendu">二氧化碳浓度</view>
+<view class="my-chart">
+<ec-canvas id="chart" canvas-id="myChart" ec="{{lazyEc}}"></ec-canvas>
+</view>
+

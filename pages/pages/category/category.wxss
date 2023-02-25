@@ -1,0 +1,32 @@
+/* pages/category/category.wxss */
+page{
+  background-image: linear-gradient(to bottom, #87c540 40%, #dbd2d5 100%);
+}
+.my-chart{
+  width: 750rpx;
+  height:600rpx ;
+}
+#chart{
+  width: 100%;
+  height: 100%;
+}
+.wendu{
+  width: 200rpx;
+  height: 100rpx;
+  margin-top: 100rpx;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 40rpx;
+}
+.back{
+  width: 200rpx;
+  height: 100rpx;
+  background-color: rgba(255, 255, 255, 0.822);
+  border-radius: 20rpx;
+  box-shadow: 0 0 2rpx 3rpx rgba(122, 120, 120, 0.5) ;
+  margin: 400rpx auto;
+  line-height: 100rpx;
+  text-align: center;
+}
